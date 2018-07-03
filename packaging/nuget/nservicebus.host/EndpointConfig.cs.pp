@@ -1,7 +1,7 @@
 
 namespace $rootnamespace$
 {
-    using NServiceBus;
+    using NServiceBus_6;
 
     public class EndpointConfig : IConfigureThisEndpoint
     {
