@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Hosting.Windows.Installers
+﻿namespace NServiceBus_6.Hosting.Windows.Installers
 {
     using System;
     using Arguments;

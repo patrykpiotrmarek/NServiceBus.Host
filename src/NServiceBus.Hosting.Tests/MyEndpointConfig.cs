@@ -1,6 +1,6 @@
 namespace EndpointTypeDeterminerTests
 {
-    using NServiceBus;
+    using NServiceBus_6;
 
     //referenced from in app.config
     class MyEndpointConfig : IConfigureThisEndpoint

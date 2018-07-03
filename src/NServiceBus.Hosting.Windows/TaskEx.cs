@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting
+namespace NServiceBus_6.Hosting
 {
     using System;
     using System.Threading.Tasks;

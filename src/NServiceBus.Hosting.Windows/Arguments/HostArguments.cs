@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting.Windows.Arguments
+namespace NServiceBus_6.Hosting.Windows.Arguments
 {
     using System;
     using System.Collections.Generic;

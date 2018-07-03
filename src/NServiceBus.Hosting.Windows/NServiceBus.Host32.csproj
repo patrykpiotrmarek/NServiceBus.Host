@@ -9,7 +9,7 @@
     <ProjectGuid>{79487CAA-C060-49C8-B689-6250C61A46D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NServiceBus.Hosting.Windows</RootNamespace>
+    <RootNamespace>NServiceBus_6.Hosting.Windows</RootNamespace>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -20,24 +20,24 @@
     <CreateDeploymentPackage>False</CreateDeploymentPackage>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <AssemblyName>NServiceBus.Host32</AssemblyName>
+    <AssemblyName>NServiceBus_6.Host32</AssemblyName>
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>..\..\binaries\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DocumentationFile>..\..\binaries\NServiceBus.Host32.xml</DocumentationFile>
+    <DocumentationFile>..\..\binaries\NServiceBus_6.Host32.xml</DocumentationFile>
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <NoWarn>
     </NoWarn>
     <Prefer32Bit>true</Prefer32Bit>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <AssemblyName>NServiceBus.Host32</AssemblyName>
+    <AssemblyName>NServiceBus_6.Host32</AssemblyName>
     <OutputPath>..\..\binaries\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>..\..\binaries\NServiceBus.Host32.xml</DocumentationFile>
+    <DocumentationFile>..\..\binaries\NServiceBus_6.Host32.xml</DocumentationFile>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x86</PlatformTarget>
@@ -51,7 +51,7 @@
     <DelaySign>true</DelaySign>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyName>NServiceBus.Host32</AssemblyName>
+    <AssemblyName>NServiceBus_6.Host32</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>NServiceBus.ico</ApplicationIcon>
@@ -69,8 +69,8 @@
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
-    <Reference Include="NServiceBus.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
-      <HintPath>..\packages\NServiceBus.6.0.0\lib\net452\NServiceBus.Core.dll</HintPath>
+    <Reference Include="NServiceBus_6.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus_6.6.4.4\lib\net452\NServiceBus_6.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Obsolete, Version=4.1.0.0, Culture=neutral, PublicKeyToken=1ca091877d12ca03, processorArchitecture=MSIL">

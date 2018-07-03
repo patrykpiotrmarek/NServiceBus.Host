@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Hosting.Windows.Profiles.Handlers
+﻿namespace NServiceBus_6.Hosting.Windows.Profiles.Handlers
 {
     
     using Hosting.Profiles;

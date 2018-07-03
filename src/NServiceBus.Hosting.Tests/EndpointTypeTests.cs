@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting.Tests
+namespace NServiceBus_6.Hosting.Tests
 {
     namespace EndpointTypeTests
     {
@@ -115,7 +115,7 @@ namespace NServiceBus.Hosting.Tests
                 var hostArguments = new HostArguments(new string[0]);
                 var endpointType = new EndpointType(hostArguments, typeof (TestEndpointType));
 
-                Assert.AreEqual("NServiceBus.Hosting.Tests.EndpointTypeTests", endpointType.ServiceName);
+                Assert.AreEqual("NServiceBus_6.Hosting.Tests.EndpointTypeTests", endpointType.ServiceName);
             }
 
             [Test]
@@ -124,7 +124,7 @@ namespace NServiceBus.Hosting.Tests
                 var hostArguments = new HostArguments(new string[0]);
                 var endpointType = new EndpointType(hostArguments, typeof (TestEndpointTypeWithoutANamespace));
 
-                Assert.AreEqual("NServiceBus.Hosting.Tests", endpointType.ServiceName);
+                Assert.AreEqual("NServiceBus_6.Hosting.Tests", endpointType.ServiceName);
             }
 
             [Test]

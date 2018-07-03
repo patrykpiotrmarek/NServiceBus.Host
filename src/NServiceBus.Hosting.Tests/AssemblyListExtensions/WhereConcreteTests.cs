@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting.Tests.AssemblyListExtensions
+namespace NServiceBus_6.Hosting.Tests.AssemblyListExtensions
 {
     using System.Linq;
     using System.Reflection;

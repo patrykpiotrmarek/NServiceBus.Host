@@ -1,10 +1,10 @@
 namespace EndpointTypeDeterminerTests
 {
     using System.Configuration;
-    using NServiceBus.Hosting.Helpers;
-    using NServiceBus.Hosting.Tests.EndpointTypeTests;
-    using NServiceBus.Hosting.Windows;
-    using NServiceBus.Hosting.Windows.Arguments;
+    using NServiceBus_6.Hosting.Helpers;
+    using NServiceBus_6.Hosting.Tests.EndpointTypeTests;
+    using NServiceBus_6.Hosting.Windows;
+    using NServiceBus_6.Hosting.Windows.Arguments;
     using NUnit.Framework;
 
     [TestFixture]

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Hosting.ComponentTests
+﻿namespace NServiceBus_6.Hosting.ComponentTests
 {
     using System;
     using System.Collections.Generic;

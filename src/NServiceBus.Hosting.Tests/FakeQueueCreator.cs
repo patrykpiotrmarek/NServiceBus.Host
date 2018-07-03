@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting.Tests
+namespace NServiceBus_6.Hosting.Tests
 {
     using System.Threading.Tasks;
     using Transport;

@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting.Helpers
+namespace NServiceBus_6.Hosting.Helpers
 {
     using System;
     using System.Collections.Generic;

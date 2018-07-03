@@ -1,5 +1,5 @@
 ﻿#pragma warning disable 1591
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 

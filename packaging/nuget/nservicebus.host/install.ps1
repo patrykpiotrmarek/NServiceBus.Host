@@ -14,7 +14,7 @@ function Add-StartProgramIfNeeded {
         }
     }
 
-    $exeName = "NServiceBus.Host"
+    $exeName = "NServiceBus_6.Host"
 
     if($package.Id.Contains("Host32"))
     {

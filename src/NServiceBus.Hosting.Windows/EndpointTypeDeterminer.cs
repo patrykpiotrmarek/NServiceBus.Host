@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Hosting.Windows
+﻿namespace NServiceBus_6.Hosting.Windows
 {
     using System;
     using System.Collections.Generic;

@@ -4,9 +4,9 @@ namespace EndpointTypeDeterminerTests
     using System.Collections.Generic;
     using System.Configuration;
     using System.Reflection;
-    using NServiceBus;
-    using NServiceBus.Hosting.Helpers;
-    using NServiceBus.Hosting.Windows;
+    using NServiceBus_6;
+    using NServiceBus_6.Hosting.Helpers;
+    using NServiceBus_6.Hosting.Windows;
     using NUnit.Framework;
 
     [TestFixture]
@@ -47,7 +47,7 @@ namespace EndpointTypeDeterminerTests
                 // ReSharper disable once UnusedVariable
                 var type = endpointTypeDeterminer.GetEndpointConfigurationType().Type;
             });
-            Assert.That(exception.Message.StartsWith("The 'EndpointConfigurationType' entry in the NServiceBus.Host.exe.config"));
+            Assert.That(exception.Message.StartsWith("The 'EndpointConfigurationType' entry in the NServiceBus_6.Host.exe.config"));
         }
 
         [Test]
@@ -55,7 +55,7 @@ namespace EndpointTypeDeterminerTests
         {
             var AssemblyScanner = new AssemblyScanner
             {
-                IncludeExesInScan = false,
+               // IncludeExesInScan = false,
                 AssembliesToSkip = new List<string>
                 {
                     Assembly.GetExecutingAssembly().GetName().Name

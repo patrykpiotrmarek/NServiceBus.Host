@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Hosting.Windows.LoggingHandlers
+﻿namespace NServiceBus_6.Hosting.Windows.LoggingHandlers
 {
     using Hosting.Profiles;
 

@@ -1,6 +1,6 @@
-﻿namespace NServiceBus.Hosting.Profiles
+﻿namespace NServiceBus_6.Hosting.Profiles
 {
-    using NServiceBus;
+    using NServiceBus_6;
 
     /// <summary>
     /// Configure logging in the constructor of the class that implements IConfigureThisEndpoint.

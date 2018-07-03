@@ -1,5 +1,5 @@
 using System;
-using NServiceBus;
+using NServiceBus_6;
 using NUnit.Framework;
 
 [TestFixture]
